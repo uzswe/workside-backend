@@ -14,7 +14,7 @@ const subscribePackages = [
   {
     id: 2,
     name: "Yakka tadbirkor",
-    price: 9,
+    price: 3,
     features: [
       { id: 1, text: "5 ta xizmat yoki mahsulot qo‘shish" },
       { id: 2, text: "Shaxsiy domen ulash imkoniyati" },
@@ -27,7 +27,7 @@ const subscribePackages = [
   {
     id: 3,
     name: "Kichik biznes",
-    price: 19,
+    price: 5,
     features: [
       { id: 1, text: "20 ta xizmat yoki mahsulot qo‘shish" },
       {
@@ -43,7 +43,7 @@ const subscribePackages = [
   {
     id: 4,
     name: "O‘rta biznes",
-    price: 39,
+    price: 12,
     features: [
       { id: 1, text: "50 ta xizmat yoki mahsulot qo‘shish" },
       { id: 2, text: "CRM tizimi bilan integratsiya" },
@@ -60,7 +60,7 @@ const subscribePackages = [
   {
     id: 5,
     name: "Yirik biznes",
-    price: 79,
+    price: 24,
     features: [
       { id: 1, text: "Cheksiz mahsulot va xizmatlar qo‘shish" },
       { id: 2, text: "API orqali boshqa tizimlar bilan ulash" },
@@ -74,7 +74,7 @@ const subscribePackages = [
   {
     id: 6,
     name: "Korxona",
-    price: "Kelishilgan holda",
+    price: 48,
     features: [
       { id: 1, text: "Shaxsiy dizayn va individual funksiyalar" },
       { id: 2, text: "Ichki biznes jarayonlarini avtomatlashtirish" },
