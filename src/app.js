@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 app.use("/api/home", homeRoutes);
 app.use("/api/auth", authRoutes);
-app.use("/api/employee", employee);
+app.use("/api/employee", employeeRoutes);
 app.use("/api/reports", reportsRoutes);
 app.use("/api/profiles", profileRoutes);
 app.use("/api/subscribe", subscribeRoutes);
