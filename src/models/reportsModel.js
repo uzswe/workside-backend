@@ -5,7 +5,7 @@ const reports = [
     position: "SMM Manager",
     message: "Bugungi postlar rejalashtirildi va chiqish vaqtlari belgilandi.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Postlar", value: 10 },
       { name: "Reklama", value: 5 },
       { name: "Kommentlar", value: 50 },
@@ -19,7 +19,7 @@ const reports = [
     message:
       "Bugun 3 ta banner tayyorladim va 1 ta video reklama dizayni ustida ishladim.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Bannerlar", value: 3 },
       { name: "Video dizayn", value: 1 },
       { name: "Tahrirlar", value: 2 },
@@ -33,7 +33,7 @@ const reports = [
     message:
       "Bugungi maqolalarni yozdim va keyingi hafta uchun kontent tayyorladim.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Maqolalar", value: 4 },
       { name: "Ijtimoiy postlar", value: 6 },
       { name: "Reels", value: 2 },
@@ -47,10 +47,10 @@ const reports = [
     message:
       "Bugun reklama kampaniyalarini tahlil qildim va yangi strategiya ishlab chiqdim.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Reklama", value: 5 },
       { name: "Strategiya", value: 2 },
-      { name: "Budjet", value: 5000 },
+      { name: "Budjet", value: 50 },
       { name: "KPI", value: 85 },
     ],
   },
@@ -60,7 +60,7 @@ const reports = [
     position: "Copywriter",
     message: "Bugungi blog postlar va ijtimoiy tarmoqlar uchun kontent yozdim.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Sarlavhalar", value: 5 },
       { name: "Matn", value: 8 },
       { name: "Reklama nusxasi", value: 3 },
@@ -74,7 +74,7 @@ const reports = [
     message:
       "Bugun sayt optimizatsiyasini tekshirdim va yangi kalit so‘zlar bo‘yicha tahlil qildim.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Kalit so'zlar", value: 15 },
       { name: "Backlinklar", value: 7 },
       { name: "Meta tavsiflar", value: 4 },
@@ -88,7 +88,7 @@ const reports = [
     message:
       "Bugungi email kampaniyalar jo‘natildi va ochilish darajasi tahlil qilindi.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Xabarlar", value: 500 },
       { name: "Ochilgan", value: 300 },
       { name: "Kliklar", value: 120 },
@@ -102,7 +102,7 @@ const reports = [
     message:
       "Bugun Google va Facebook reklamalari sozlandi va natijalar tahlil qilindi.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Google reklama", value: 8 },
       { name: "Facebook reklama", value: 6 },
       { name: "Konversiya", value: 120 },
@@ -116,7 +116,7 @@ const reports = [
     message:
       "Bugun ijtimoiy tarmoqlardagi statistikalar tahlil qilindi va hisobot tayyorlandi.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Followerlar", value: 5000 },
       { name: "Engagement", value: 1500 },
       { name: "Reklama natijasi", value: 85 },
@@ -129,7 +129,7 @@ const reports = [
     position: "PR Manager",
     message: "Bugungi press-reliz yozildi va jurnalistlarga yuborildi.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Press-reliz", value: 2 },
       { name: "Nashrlar", value: 3 },
       { name: "Jurnalistlar", value: 10 },
@@ -143,7 +143,7 @@ const reports = [
     message:
       "Bugun brend imijini mustahkamlash uchun yangi strategiyalar ishlab chiqildi.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Brend strategiya", value: 2 },
       { name: "Reklama", value: 4 },
       { name: "Analitika", value: 5 },
@@ -156,7 +156,7 @@ const reports = [
     position: "Video Editor",
     message: "Bugun 3 ta video tahrirlandi va 1 ta yangi loyiha boshlandi.",
     data_date: "2/3/2025",
-    chart_data: [
+    report_data: [
       { name: "Tahrirlangan", value: 3 },
       { name: "Animatsiya", value: 1 },
       { name: "Rasm solingan", value: 4 },
