@@ -23,6 +23,6 @@ app.use("/api/employee", employeeRoutes);
 app.use("/api/reports", reportsRoutes);
 app.use("/api/profiles", profileRoutes);
 app.use("/api/subscribe", subscribeRoutes);
-app.use("*", notFoundRoutes);
+app.use("/api/notfound", notFoundRoutes);
 
 module.exports = app;

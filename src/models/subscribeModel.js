@@ -3,6 +3,7 @@ const subscribePackages = [
     id: 1,
     name: "Tekin",
     price: "$0.00",
+    category: "small-teams",
     features: [
       { id: 1, text: "Oddiy vizitka sahifasi" },
       { id: 2, text: "Minimal SEO optimizatsiya" },
@@ -15,6 +16,7 @@ const subscribePackages = [
     id: 2,
     name: "Yakka tadbirkor",
     price: "$3",
+    category: "small-teams",
     features: [
       { id: 1, text: "Asosiy SEO optimizatsiya" },
       { id: 2, text: "Mobil moslashuvchan dizayn" },
@@ -28,6 +30,7 @@ const subscribePackages = [
     id: 3,
     name: "Kichik biznes",
     price: "$5",
+    category: "small-teams",
     features: [
       { id: 1, text: "To‘liq SEO optimizatsiya" },
       { id: 2, text: "Blog va yangiliklar bo‘limi" },
@@ -44,6 +47,7 @@ const subscribePackages = [
     id: 4,
     name: "O'rta biznes",
     price: "$12",
+    category: "enterprises",
     features: [
       { id: 1, text: "Premium dizayn va brending" },
       { id: 2, text: "CRM tizimi bilan integratsiya" },
@@ -61,6 +65,7 @@ const subscribePackages = [
     id: 5,
     name: "Yirik biznes",
     price: "$24",
+    category: "enterprises",
     features: [
       { id: 1, text: "Kiberxavfsizlik kafolati" },
       { id: 2, text: "Jamoa uchun ko‘p foydalanuvchi tizimi" },
@@ -75,6 +80,7 @@ const subscribePackages = [
     id: 6,
     name: "Korxona",
     price: "$48",
+    category: "enterprises",
     features: [
       { id: 1, text: "Korporativ e-mail va hosting" },
       { id: 2, text: "Kompaniya ichki portalini yaratish" },
