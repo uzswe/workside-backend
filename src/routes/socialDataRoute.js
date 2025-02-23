@@ -2,7 +2,7 @@ const express = require("express");
 const {
   getAllSocialData,
   getSocialByName,
-} = require("../controllers/socialController");
+} = require("../controllers/socialDataController");
 
 const router = express.Router();
 

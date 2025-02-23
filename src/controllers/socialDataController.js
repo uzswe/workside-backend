@@ -1,4 +1,4 @@
-const social_data = require("../models/socialModel");
+const social_data = require("../models/socialData");
 
 const getAllSocialData = (req, res) => {
   res.setHeader("Content-Type", "application/json");
