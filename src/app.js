@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 const homeRoutes = require("./routes/homeRoute");
-const profileRoutes = require("./routes/profileRoutes");
+const mainRoutes = require("./routes/mainRoutes");
 const subscribeRoutes = require("./routes/subscribeRoute");
 const reportsRoutes = require("./routes/reportsRoute");
 const employeeRoutes = require("./routes/employee");
@@ -21,7 +21,7 @@ app.use("/api/home", homeRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/employee", employeeRoutes);
 app.use("/api/reports", reportsRoutes);
-app.use("/api/profiles", profileRoutes);
+app.use("/api/main", mainRoutes);
 app.use("/api/subscribe", subscribeRoutes);
 app.use("/api/notfound", notFoundRoutes);
 
